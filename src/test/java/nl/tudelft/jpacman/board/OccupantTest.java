@@ -62,8 +62,5 @@ class OccupantTest {
         unit.occupy(target);
         assertThat(unit.getSquare()).isEqualTo(target);
         assertThat(target.getOccupants()).contains(unit);
-
-
-
     }
 }
