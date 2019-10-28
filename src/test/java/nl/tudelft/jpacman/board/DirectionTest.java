@@ -1,9 +1,8 @@
 package nl.tudelft.jpacman.board;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
-import net.bytebuddy.dynamic.loading.ClassInjector;
 import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 /**
  * A very simple (and not particularly useful)
@@ -22,6 +21,10 @@ public class DirectionTest {
         assertThat(north.getDeltaX()).isEqualTo(0);
     }
 
+    /**
+     * Test case for correct movement in SOUTH Direction.
+     */
+
     @Test
     void testSouth() {
         Direction south = Direction.valueOf("SOUTH");
@@ -29,6 +32,9 @@ public class DirectionTest {
         assertThat(south.getDeltaX()).isEqualTo(0);
     }
 
+    /**
+     * Test case for correct movement in WEST Direction.
+     */
     @Test
     void testWest() {
         Direction west = Direction.valueOf("WEST");
@@ -36,12 +42,17 @@ public class DirectionTest {
         assertThat(west.getDeltaX()).isEqualTo(-1);
     }
 
-   @Test
-    void  testEast(){
+
+    /**
+     * Test case for checking correct movement in EAST direction.
+     */
+    @Test
+    void testEast() {
         Direction east = Direction.valueOf("EAST");
         assertThat(east.getDeltaY()).isEqualTo(0);
         assertThat(east.getDeltaX()).isEqualTo(1);
-   }
+    }
 
 
 }
+
