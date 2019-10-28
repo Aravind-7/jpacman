@@ -33,6 +33,7 @@ class OccupantTest {
     void noStartSquare() {
         // Remove the following placeholder:
         assertThat(unit.hasSquare()).isFalse();
+
     }
 
     /**
