@@ -24,7 +24,7 @@ public class BoardTest {
         Square[][] squares = {{basicSquare}};
 
         Board board = new Board(squares);
-        Square sq0 = board.squareAt(0, 0);
+
         assertThat(board).isInstanceOf(Board.class);
 
     }
