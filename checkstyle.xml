@@ -9,7 +9,7 @@
     Description: none
 -->
 <module name="Checker">
-  <property name="severity" value="error"/>
+  <property name="severity" value="warning"/>
   <module name="TreeWalker">
     <module name="SuppressWarningsHolder" />
     <property name="tabWidth" value="4"/>
@@ -38,9 +38,6 @@
     <module name="IllegalImport"/>
     <module name="RedundantImport"/>
     <module name="UnusedImports"/>
-    <module name="LineLength">
-      <property name="max" value="100"/>
-    </module>
     <module name="MethodLength">
       <property name="max" value="30"/>
     </module>
@@ -109,6 +106,9 @@
     <module name="MethodLength">
       <property name="max" value="30"/>
     </module>
+  </module>
+  <module name="LineLength">
+    <property name="max" value="100"/>
   </module>
   <module name="FileTabCharacter">
     <property name="eachLine" value="true"/>
