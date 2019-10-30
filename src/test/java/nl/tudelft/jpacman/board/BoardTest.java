@@ -26,7 +26,6 @@ public class BoardTest {
         Board board = new Board(squares);
 
         assertThat(board).isInstanceOf(Board.class);
-
     }
 
    /** @Test
