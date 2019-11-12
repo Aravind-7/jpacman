@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * Test class to construct board with out null.
  *
  */
-public class BoardTest {
+public class BoardAssertTest {
 
 
     /**
@@ -33,6 +33,8 @@ public class BoardTest {
 
         BasicSquare basicsquare2 = null;
         Square[][] squares2= {{basicsquare2}};
+
+
 
         Board board2 = new Board(squares2);
         Square sq1 = board2.squareAt(0 ,0);
