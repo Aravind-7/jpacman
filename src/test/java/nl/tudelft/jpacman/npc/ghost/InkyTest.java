@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.Optional;
 
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class InkyTest {
@@ -32,7 +33,7 @@ class InkyTest {
         boardFactory, ghostFactory);
 
     /**
-     * Good weather case-1: Inky moves East.
+     * Good weather test case-1: Inky moves East.
      */
     @Test
     void inkyMoveEast() {
@@ -56,10 +57,10 @@ class InkyTest {
     }
 
     /**
-     * Good weather case-2: Inky moves West.
+     * Good weather test case-2: Inky moves West.
      */
     @Test
-    void inkyMoveWest(){
+    void inkyMoveWest() {
         List<String> position = Arrays.asList(
             "################",
             "#   B          #",
@@ -80,4 +81,23 @@ class InkyTest {
 
     }
 
+    /**
+     * Bad Weather test case-1: no pacman in the game.
+     */
+    @Test
+    void no_Pacman() {
+        List<String> position = Arrays.asList(
+            "################",
+            "#   B          #",
+            "#             I#",
+            "################");
+
+
+        Level level = ghostMapParser.parseMap(position);
+
+        Inky inky = Navigation.findUnitInBoard(Inky.class, level.getBoard());
+
+        assert inky != null;
+        assertThat(inky.nextAiMove()).isEqualTo(Optional.empty());
+    }
 }
