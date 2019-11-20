@@ -16,6 +16,7 @@ import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.assertj.core.api.Assertions.assertThat;
 
 
 /**
@@ -48,14 +49,40 @@ public class Clydetest {
         Level level = ghostMapParser.parseMap(position);
 
         PlayerFactory playerFactory = new PlayerFactory(pacManSprites);
-        Player p = playerFactory.createPacMan();
-        level.registerPlayer(p);
-        p.setDirection(Direction.WEST);
+        Player pman = playerFactory.createPacMan();
+        level.registerPlayer(pman);
+        pman.setDirection(Direction.WEST);
 
         Clyde clyde = Navigation.findUnitInBoard(Clyde.class, level.getBoard());
 
         assert clyde != null;
         assertEquals(Optional.of(Direction.WEST), clyde.nextAiMove());
+
+    }
+
+    /**
+     * Good weather case.
+     *
+     */
+    @Test
+    void with_Shyness() {
+        List<String> position = Arrays.asList(
+            "########",
+            "#P    C#",
+            "########"
+        );
+        Level level = ghostMapParser.parseMap(position);
+
+        PlayerFactory playerFactory = new PlayerFactory(pacManSprites);
+        Player pman = playerFactory.createPacMan();
+        level.registerPlayer(pman);
+        pman.setDirection(Direction.EAST);
+
+        Clyde clyde = Navigation.findUnitInBoard(Clyde.class, level.getBoard());
+
+
+        assert clyde != null;
+        assertThat(clyde.nextAiMove()).isEqualTo(Optional.of(Direction.EAST));
 
     }
 }
