@@ -100,4 +100,27 @@ class InkyTest {
         assert inky != null;
         assertThat(inky.nextAiMove()).isEqualTo(Optional.empty());
     }
+
+    /**
+     * Bad Weather test case-2: no Blinky in the game.
+     */
+    @Test
+    void no_Blinky() {
+        List<String> position = Arrays.asList(
+            "################",
+            "#   P          #",
+            "#             I#",
+            "################");
+
+
+        Level level = ghostMapParser.parseMap(position);
+
+        Inky inky = Navigation.findUnitInBoard(Inky.class, level.getBoard());
+
+        assert inky != null;
+        assertThat(inky.nextAiMove()).isEqualTo(Optional.empty());
+    }
+    /**
+     * Bad Weather test case-3:
+     */
 }
