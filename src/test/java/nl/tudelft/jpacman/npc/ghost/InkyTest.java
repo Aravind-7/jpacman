@@ -120,7 +120,29 @@ class InkyTest {
         assert inky != null;
         assertThat(inky.nextAiMove()).isEqualTo(Optional.empty());
     }
+
     /**
-     * Bad Weather test case-3:
+     * Bad Weather test case-3: no path
      */
+    @Test
+    void no_Path() {
+        List<String> position = Arrays.asList(
+            "################",
+            "#   P  #       #",
+            "#      #      I#",
+            "################");
+
+        Level level = ghostMapParser.parseMap(position);
+
+        PlayerFactory playerFactory = new PlayerFactory(pacManSprites);
+        Player pman = playerFactory.createPacMan();
+        level.registerPlayer(pman);
+
+
+        Inky inky = Navigation.findUnitInBoard(Inky.class, level.getBoard());
+
+        assert inky != null;
+        assertThat(inky.nextAiMove()).isEqualTo(Optional.empty());
+    }
 }
+
