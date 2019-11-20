@@ -68,7 +68,7 @@ public class Clydetest {
     void with_Shyness() {
         List<String> position = Arrays.asList(
             "########",
-            "#P    C#",
+            "#P   C #",
             "########"
         );
         Level level = ghostMapParser.parseMap(position);
@@ -83,8 +83,57 @@ public class Clydetest {
 
         assert clyde != null;
         assertThat(clyde.nextAiMove()).isEqualTo(Optional.of(Direction.EAST));
+    }
+
+    /**
+     * Bad weather case.
+     * no Pacman
+     */
+    @Test
+    void no_Pacman() {
+        List<String> position = Arrays.asList(
+            "########",
+            "#   C  #",
+            "########"
+        );
+
+         Level level = ghostMapParser.parseMap(position);
+
+        Clyde clyde = Navigation.findUnitInBoard(Clyde.class, level.getBoard());
+
+        assert clyde != null;
+        assertThat(clyde.nextAiMove()).isEqualTo(Optional.empty());
 
     }
+
+    /**
+     * Bad weather case.
+     * no path.
+     */
+    @Test
+    void no_Path() {
+        List<String> position = Arrays.asList(
+            "########",
+            "#P # C #",
+            "########"
+        );
+        Level level = ghostMapParser.parseMap(position);
+
+        PlayerFactory playerFactory = new PlayerFactory(pacManSprites);
+        Player pman = playerFactory.createPacMan();
+        level.registerPlayer(pman);
+
+
+        Clyde clyde = Navigation.findUnitInBoard(Clyde.class, level.getBoard());
+
+        assert clyde != null;
+        assertThat(clyde.nextAiMove()).isEqualTo(Optional.empty());
+
+
+
+    }
+
+
 }
 
 
