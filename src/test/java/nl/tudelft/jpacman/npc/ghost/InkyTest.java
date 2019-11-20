@@ -128,7 +128,7 @@ class InkyTest {
     void no_Path() {
         List<String> position = Arrays.asList(
             "################",
-            "#   P  #       #",
+            "#   P  #   B   #",
             "#      #      I#",
             "################");
 
