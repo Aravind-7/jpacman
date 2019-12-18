@@ -16,6 +16,7 @@ public class MapParserTest{
     private final Square wall = Mockito.mock(Square.class);
     private final Square ground = Mockito.mock(Square.class);
     private MapParser mapParser;
+
     /**
      * create a before each.
      */
