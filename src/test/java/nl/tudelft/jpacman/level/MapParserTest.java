@@ -77,6 +77,7 @@ public class MapParserTest {
         Mockito.verify(levelCreator).createLevel(Mockito.any(),Mockito.anyList(),Mockito.anyList());
 
     }
+
 /**
     @Test
     void forGhost(){
