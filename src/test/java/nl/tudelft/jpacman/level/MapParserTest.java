@@ -24,7 +24,6 @@ public class MapParserTest {
 
     private MapParser mapParser;
 
-
     /**
      * create a before each.
      */
