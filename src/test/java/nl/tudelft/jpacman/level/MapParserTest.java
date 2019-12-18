@@ -23,7 +23,6 @@ public class MapParserTest {
     private final Ghost ghost = Mockito.mock(Ghost.class);
 
     private MapParser mapParser;
-
     /**
      * create a before each.
      */
