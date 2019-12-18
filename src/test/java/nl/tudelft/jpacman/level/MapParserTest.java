@@ -82,7 +82,6 @@ public class MapParserTest {
         Mockito.verify(boardCreator).createGround();
         Mockito.verify(levelCreator).createLevel(Mockito.any(),
             Mockito.anyList(), Mockito.anyList());
-
     }
 
 }
