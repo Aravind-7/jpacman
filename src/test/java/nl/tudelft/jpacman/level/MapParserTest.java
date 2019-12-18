@@ -6,9 +6,7 @@ import nl.tudelft.jpacman.npc.Ghost;
 import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.internal.configuration.injection.MockInjection;
 
 /**
  * create a test class.
@@ -62,32 +60,29 @@ public class MapParserTest {
         Mockito.verify(boardCreator).createWall();
     }
 
+    /**
+     * Nice weather test for creating a pallet in the square.
+     */
+
     @Test
-    void forPallet(){
+    void forPallet() {
         mapParser.parseMap(Lists.newArrayList("."));
         Mockito.verify(boardCreator).createGround();
         Mockito.verify(levelCreator).createPellet();
         Mockito.verify(pellet).occupy(palletSquare);
     }
 
+    /**
+     * Nice weather test for creating a player.
+     */
+
     @Test
-    void forPlayer(){
+    void forPlayer() {
         mapParser.parseMap(Lists.newArrayList("P"));
         Mockito.verify(boardCreator).createGround();
-        Mockito.verify(levelCreator).createLevel(Mockito.any(),Mockito.anyList(),Mockito.anyList());
+        Mockito.verify(levelCreator).createLevel(Mockito.any(),
+            Mockito.anyList(), Mockito.anyList());
 
     }
-
-/**
-    @Test
-    void forGhost(){
-        Square ghostSquare = ;
-        mapParser.parseMap(Lists.newArrayList("G"));
-        Mockito.verify((boardCreator)).createGround();
-        Mockito.verify(levelCreator).createGhost();
-        Mockito.verify(ghost).occupy(ghostSquare);
-
-    }
-*/
 
 }
