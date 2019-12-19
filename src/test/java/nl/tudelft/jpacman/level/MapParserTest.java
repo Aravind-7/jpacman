@@ -8,10 +8,8 @@ import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-
 import java.util.List;
-
-import static  org.assertj.core.api.AssertionsForClassTypes.*;
+import static  org.assertj.core.api.Assertions.assertThat;
 
 
 

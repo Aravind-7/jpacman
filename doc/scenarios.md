@@ -1,5 +1,5 @@
 JPacman Scenarios
-=================
+-----------------
 
 Arie van Deursen, Delft University of Technology.
 
