@@ -36,8 +36,25 @@ public class GameUnitTest {
     @Test
     void startGame() {
         Mockito.when(level.isAnyPlayerAlive()).thenReturn(true);
-        Mockito.when(level.remainingPellets()).thenReturn(2);
+        Mockito.when(level.remainingPellets()).thenReturn(10);
         game.start();
         assertThat(game.isInProgress()).isTrue();
+    }
+
+    @Test
+    void isInProgress() {
+        Mockito.when(level.isAnyPlayerAlive()).thenReturn(true);
+        Mockito.when((level.remainingPellets())).thenReturn(10);
+        game.start();
+        game.start();
+        assertThat(game.isInProgress()).isTrue();
+    }
+
+    @Test
+    void GameOver() {
+        Mockito.when(level.isAnyPlayerAlive()).thenReturn(false);
+        Mockito.when(level.remainingPellets()).thenReturn(10);
+        game.start();
+        assertThat(game.isInProgress()).isFalse();
     }
 }
