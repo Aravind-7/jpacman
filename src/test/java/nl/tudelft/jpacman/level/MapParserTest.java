@@ -105,10 +105,10 @@ public class MapParserTest {
 
 
     /**
-     * Bad weather test for MapParser
+     * Bad weather test for MapParser should ensure equal width.
      */
     @Test
-    void badWeather() {
+    void equalWidth() {
         try {
             mapParser.parseMap(Lists.newArrayList("##", "   "));
         }
