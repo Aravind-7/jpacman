@@ -2,6 +2,7 @@ package nl.tudelft.jpacman.level;
 
 import nl.tudelft.jpacman.points.DefaultPointCalculator;
 import nl.tudelft.jpacman.points.PointCalculator;
+import org.junit.jupiter.api.BeforeEach;
 
 public class PlayerCollisionTest extends CollisionTest{
     @Override
@@ -15,6 +16,7 @@ public class PlayerCollisionTest extends CollisionTest{
     /**
      * BeforeEach set collision
      */
+    @BeforeEach
     void setUp(){
         setCollisions();
     }
