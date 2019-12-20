@@ -3,10 +3,10 @@ package nl.tudelft.jpacman.level;
 import nl.tudelft.jpacman.npc.Ghost;
 import nl.tudelft.jpacman.points.DefaultPointCalculator;
 import nl.tudelft.jpacman.points.PointCalculator;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
 
 public class PlayerCollisionTest {
     private Player player = mock(Player.class);
