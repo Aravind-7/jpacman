@@ -1,17 +1,18 @@
 package nl.tudelft.jpacman.level;
 
 import nl.tudelft.jpacman.npc.Ghost;
+import nl.tudelft.jpacman.points.DefaultPointCalculator;
 import nl.tudelft.jpacman.points.PointCalculator;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.*;
 
 public class PlayerCollisionTest {
     private Player player = mock(Player.class);
     private Pellet pellet = mock(Pellet.class);
     private Ghost ghost = mock(Ghost.class);
-    private PointCalculator pointCalculator = mock(PointCalculator.class);
+    private PointCalculator pointCalculator = new DefaultPointCalculator();
     private PlayerCollisions playerCollisions = new PlayerCollisions(pointCalculator);
 
 
@@ -23,6 +24,14 @@ void PlayerMeetsGhost() {
     playerCollisions.collide(player, ghost);
     verify(player).setAlive(false);
 }
-
+/**
+ * case: Player meets Pellet, Player eats Pellet
+ */
+@Test
+void PlayerMeetsPellet(){
+    playerCollisions.collide(player,pellet);
+    verify(player).addPoints(pellet.getValue());
+    verify(pellet).leaveSquare();
+    }
 
 }
