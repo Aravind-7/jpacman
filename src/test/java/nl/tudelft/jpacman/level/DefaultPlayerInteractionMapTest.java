@@ -2,20 +2,22 @@ package nl.tudelft.jpacman.level;
 
 import nl.tudelft.jpacman.points.DefaultPointCalculator;
 import nl.tudelft.jpacman.points.PointCalculator;
+import org.junit.jupiter.api.BeforeEach;
 
-public class PlayerCollisionTest extends CollisionTest{
+public class DefaultPlayerInteractionMapTest extends CollisionTest{
     @Override
-    void setCollisions(){
+    void setCollisions() {
         PointCalculator pointCalculator = new DefaultPointCalculator();
-        CollisionMap collisionMap = new PlayerCollisions(pointCalculator);
+        CollisionMap collisionMap = new DefaultPlayerInteractionMap(pointCalculator);
         setCollisionMap(collisionMap);
     }
 
-
     /**
-     * BeforeEach set collision
+     * BeforeEach setup CollisionMap.
      */
-    void setUp(){
+    @BeforeEach
+    void setUpDefault(){
         setCollisions();
     }
+
 }
