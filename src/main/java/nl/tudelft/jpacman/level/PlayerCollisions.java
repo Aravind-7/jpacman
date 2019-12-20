@@ -92,4 +92,6 @@ public class PlayerCollisions implements CollisionMap {
         pellet.leaveSquare();
     }
 
+
+
 }

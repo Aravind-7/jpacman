@@ -5,8 +5,7 @@ import nl.tudelft.jpacman.points.DefaultPointCalculator;
 import nl.tudelft.jpacman.points.PointCalculator;
 import org.junit.jupiter.api.Test;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.*;
 
 public class PlayerCollisionTest {
     private Player player = mock(Player.class);
@@ -54,5 +53,33 @@ void GhostMeetsPlayer(){
     playerCollisions.collide(pellet,player);
     verify(player).addPoints(pellet.getValue());
     verify(pellet).leaveSquare();
+}
+
+    /**
+     * case: Ghost Meets Pellet, no interactions
+     */
+    @Test
+    void GhostMeetsPellet(){
+    playerCollisions.collide(ghost,pellet);
+    verifyZeroInteractions(pellet);
+    verifyZeroInteractions(ghost);
+}
+
+/**
+ * case:Ghost meets Ghost, no Interactions
+ */
+@Test
+    void GhostMeetsGhost(){
+    playerCollisions.collide(ghost,ghost);
+    verifyZeroInteractions(ghost);
+}
+
+/**
+ * case: Pellet meets Pellet, no interactions
+ */
+@Test
+    void PelletMeetsPellet(){
+    playerCollisions.collide(pellet,pellet);
+    verifyZeroInteractions(pellet);
 }
 }
