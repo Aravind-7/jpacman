@@ -93,7 +93,7 @@ public class MapParserTest {
      * Bad weather Test for mapParser with null input.
      */
     @Test
-    void noInput(){
+    void noInput() {
         try {
             mapParser.parseMap(string);
         }
@@ -108,7 +108,7 @@ public class MapParserTest {
      * Bad weather test for MapParser
      */
     @Test
-    void badWeather(){
+    void badWeather() {
         try {
             mapParser.parseMap(Lists.newArrayList("##", "   "));
         }
@@ -122,7 +122,7 @@ public class MapParserTest {
      * Bad Weather Test for empty input
      */
     @Test
-    void errorEmptyList(){
+    void errorEmptyList() {
         try {
             mapParser.parseMap(Lists.newArrayList());
         }

@@ -16,7 +16,7 @@ public class DefaultPlayerInteractionMapTest extends CollisionTest{
      * BeforeEach setup CollisionMap.
      */
     @BeforeEach
-    void setUpDefault(){
+    void setUpDefault() {
         setCollisions();
     }
 

@@ -18,7 +18,7 @@ public abstract class CollisionTest {
      * @param collisionMap
      *                    this is CollisionMap type
      */
-    public void setCollisionMap(CollisionMap collisionMap){
+    public void setCollisionMap(CollisionMap collisionMap) {
         this.collisionMap = collisionMap;
     }
 
@@ -41,7 +41,7 @@ public abstract class CollisionTest {
      * case: Player meets Pellet, Player eats Pellet
      */
     @Test
-    void PlayerMeetsPellet(){
+    void PlayerMeetsPellet() {
         collisionMap.collide(player,pellet);
         verify(player).addPoints(pellet.getValue());
         verify(pellet).leaveSquare();
@@ -51,7 +51,7 @@ public abstract class CollisionTest {
      * case: Ghost meets Player, Player dies
      */
     @Test
-    void GhostMeetsPlayer(){
+    void GhostMeetsPlayer() {
         collisionMap.collide(ghost,player);
         verify(player).setAlive(false);
     }
@@ -61,7 +61,7 @@ public abstract class CollisionTest {
      * case: Pellet meets Player, Player eats Pellet
      */
     @Test
-    void PelletMeetsPlayer(){
+    void PelletMeetsPlayer() {
         collisionMap.collide(pellet,player);
         verify(player).addPoints(pellet.getValue());
         verify(pellet).leaveSquare();
@@ -71,7 +71,7 @@ public abstract class CollisionTest {
      * case: Ghost Meets Pellet, no interactions
      */
     @Test
-    void GhostMeetsPellet(){
+    void GhostMeetsPellet() {
         collisionMap.collide(ghost,pellet);
         verifyZeroInteractions(pellet);
         verifyZeroInteractions(ghost);
@@ -81,7 +81,7 @@ public abstract class CollisionTest {
      * case:Ghost meets Ghost, no Interactions
      */
     @Test
-    void GhostMeetsGhost(){
+    void GhostMeetsGhost() {
         collisionMap.collide(ghost,ghost);
         verifyZeroInteractions(ghost);
     }
@@ -90,7 +90,7 @@ public abstract class CollisionTest {
      * case: Pellet meets Pellet, no interactions
      */
     @Test
-    void PelletMeetsPellet(){
+    void PelletMeetsPellet() {
         collisionMap.collide(pellet,pellet);
         verifyZeroInteractions(pellet);
     }

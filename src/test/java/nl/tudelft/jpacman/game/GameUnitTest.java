@@ -25,7 +25,7 @@ public class GameUnitTest {
      */
     @BeforeEach
     void setUp() {
-        game = new SinglePlayerGame(player,level,pointCalculator);
+        game = new SinglePlayerGame( player, level, pointCalculator );
     }
 
     /**
@@ -66,7 +66,7 @@ public class GameUnitTest {
 
     @Test
     void GameOver() {
-        final int randompoint =10;
+        final int randompoint = 10;
         Mockito.when(level.isAnyPlayerAlive()).thenReturn(false);
         Mockito.when(level.remainingPellets()).thenReturn(randompoint);
         game.start();
