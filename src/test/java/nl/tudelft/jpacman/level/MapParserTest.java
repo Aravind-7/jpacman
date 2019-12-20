@@ -66,7 +66,7 @@ public class MapParserTest {
     }
 
     /**
-     * Nice weather test for creating a pallet in the square.
+     * Nice weather test for creating a pallet in the square when "." is passed.
      */
 
     @Test

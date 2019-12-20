@@ -16,19 +16,19 @@ public abstract class CollisionTest {
 
     /**
      * @param collisionMap
-     *                    this is CollisionMap type
+     *                    this is CollisionMap type.
      */
     public void setCollisionMap(CollisionMap collisionMap) {
         this.collisionMap = collisionMap;
     }
 
     /**
-     * an Abstract method to set collisionMap
+     * an Abstract method to set collisionMap.
      */
     abstract void setCollisions();
 
     /**
-     * case: PLayer meets Ghost, Player dies
+     * case: PLayer meets Ghost, Player dies.
      */
     @Test
     void PlayerMeetsGhost() {
@@ -38,7 +38,7 @@ public abstract class CollisionTest {
 
 
     /**
-     * case: Player meets Pellet, Player eats Pellet
+     * case: Player meets Pellet, Player eats Pellet.
      */
     @Test
     void PlayerMeetsPellet() {
@@ -48,7 +48,7 @@ public abstract class CollisionTest {
     }
 
     /**
-     * case: Ghost meets Player, Player dies
+     * case: Ghost meets Player, Player dies.
      */
     @Test
     void GhostMeetsPlayer() {
@@ -58,7 +58,7 @@ public abstract class CollisionTest {
 
 
     /**
-     * case: Pellet meets Player, Player eats Pellet
+     * case: Pellet meets Player, Player eats Pellet.
      */
     @Test
     void PelletMeetsPlayer() {
@@ -68,7 +68,7 @@ public abstract class CollisionTest {
     }
 
     /**
-     * case: Ghost Meets Pellet, no interactions
+     * case: Ghost Meets Pellet, no interactions.
      */
     @Test
     void GhostMeetsPellet() {
@@ -78,7 +78,17 @@ public abstract class CollisionTest {
     }
 
     /**
-     * case:Ghost meets Ghost, no Interactions
+     * case : Pellet meets Ghost, no interactions.
+     */
+    @Test
+    void PelletMeetsGhost() {
+        collisionMap.collide(pellet,ghost);
+        verifyZeroInteractions(pellet);
+        verifyZeroInteractions(ghost);
+    }
+
+    /**
+     * case:Ghost meets Ghost, no Interactions.
      */
     @Test
     void GhostMeetsGhost() {
@@ -87,7 +97,7 @@ public abstract class CollisionTest {
     }
 
     /**
-     * case: Pellet meets Pellet, no interactions
+     * case: Pellet meets Pellet, no interactions.
      */
     @Test
     void PelletMeetsPellet() {

@@ -20,4 +20,5 @@ public class PlayerCollisionTest extends CollisionTest{
     void setUp(){
         setCollisions();
     }
+
 }
