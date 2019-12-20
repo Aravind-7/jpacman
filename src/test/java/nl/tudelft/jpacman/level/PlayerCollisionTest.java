@@ -24,6 +24,8 @@ void PlayerMeetsGhost() {
     playerCollisions.collide(player, ghost);
     verify(player).setAlive(false);
 }
+
+
 /**
  * case: Player meets Pellet, Player eats Pellet
  */
@@ -33,5 +35,15 @@ void PlayerMeetsPellet(){
     verify(player).addPoints(pellet.getValue());
     verify(pellet).leaveSquare();
     }
+
+/**
+ * case: Ghost meets Player, Player dies
+  */
+@Test
+void GhostMeetsPlayer(){
+    playerCollisions.collide(ghost,player);
+    verify(player).setAlive(false);
+}
+
 
 }
