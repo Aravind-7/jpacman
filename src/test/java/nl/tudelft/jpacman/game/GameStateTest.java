@@ -81,19 +81,7 @@ public class GameStateTest {
         assertThat(getGame().isInProgress()).isFalse();
         verifyNoMoreInteractions(observer);
     }
-    /**
-     * Test for gamePlaying to gameWin State.
-     */
-    @Test
-    void gameWin() {
-        getGame().start();
-        assertThat(getGame().isInProgress()).isTrue();
-        getGame().move(getPlayer(),Direction.EAST);
-        getGame().move(getPlayer(),Direction.EAST);
-        getGame().move(getPlayer(),Direction.EAST);
-        verify(observer).levelWon();
-        assertThat(getGame().isInProgress()).isFalse();
-    }
+
 
     /**
      * Game is in gamePlaying State.
@@ -109,19 +97,6 @@ public class GameStateTest {
     }
 
     /**
-     * Test for gamePlaying to gameLose State
-     */
-    @Test
-    void gameLose() {
-        getGame().start();
-        getGame().move(getPlayer(),Direction.WEST);
-        getGame().move(getPlayer(),Direction.WEST);
-        assertThat(getPlayer().isAlive()).isFalse();
-        verify(observer).levelLost();
-        assertThat(getGame().isInProgress()).isFalse();
-    }
-
-    /**
      * Events having no effect in gamePlaying.
      */
     @Test
@@ -130,6 +105,21 @@ public class GameStateTest {
         getGame().start();
         verifyZeroInteractions(observer);
         assertThat(getGame().isInProgress()).isTrue();
+    }
+
+
+    /**
+     * Test for gamePlaying to gameWin State.
+     */
+    @Test
+    void gameWin() {
+        getGame().start();
+        assertThat(getGame().isInProgress()).isTrue();
+        getGame().move(getPlayer(),Direction.EAST);
+        getGame().move(getPlayer(),Direction.EAST);
+        getGame().move(getPlayer(),Direction.EAST);
+        verify(observer).levelWon();
+        assertThat(getGame().isInProgress()).isFalse();
     }
 
     /**
@@ -144,6 +134,20 @@ public class GameStateTest {
         assertThat(getGame().isInProgress()).isFalse();
         verifyNoMoreInteractions(observer);
 
+    }
+
+
+    /**
+     * Test for gamePlaying to gameLose State
+     */
+    @Test
+    void gameLose() {
+        getGame().start();
+        getGame().move(getPlayer(),Direction.WEST);
+        getGame().move(getPlayer(),Direction.WEST);
+        assertThat(getPlayer().isAlive()).isFalse();
+        verify(observer).levelLost();
+        assertThat(getGame().isInProgress()).isFalse();
     }
 
     /**
