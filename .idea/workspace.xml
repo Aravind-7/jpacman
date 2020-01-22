@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3b8a8eb-f1bd-4552-a71d-4af3691c60bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/nl/tudelft/jpacman/game/MultiLevelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,8 +13,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/checkstyle/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/checkstyle/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/checkstyle/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/checkstyle/main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/tudelft/jpacman/MultiLevelLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/jpacman/MultiLevelLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/tudelft/jpacman/game/MultiLevelGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/jpacman/game/MultiLevelGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +129,7 @@
       <command value="gradle staticAnalysis" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.nl.tudelft.jpacman in jpacman.test">
+  <component name="RunManager" selected="Gradle.jpacman [staticAnalysis]">
     <configuration name="jpacman [staticAnalysis]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -316,7 +316,7 @@
       <workItem from="1579602066977" duration="10883000" />
       <workItem from="1579681514814" duration="542000" />
       <workItem from="1579702536598" duration="5118000" />
-      <workItem from="1579716963532" duration="8368000" />
+      <workItem from="1579716963532" duration="9586000" />
     </task>
     <task id="LOCAL-00001" summary="Enabling coverage and commenting move method">
       <created>1573551672151</created>
@@ -500,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579720948390</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Final Commit">
+      <created>1579725465336</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1579725465336</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +546,8 @@
     <MESSAGE value="Restructure tests- Exercise-25" />
     <MESSAGE value="StateMachineTests-Exercise_41" />
     <MESSAGE value="Exercise 45,46" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 45,46" />
+    <MESSAGE value="Final Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="365" y="68" key="#LauncherSmokeTest" timestamp="1576693025552">
@@ -574,26 +582,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="365" y="44" key="#nl.tudelft.jpacman_in_jpacman.test/0.0.1536.824@0.0.1536.824" timestamp="1576693142250" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1579720946696">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1579725463684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579720946696" />
-    <state width="1478" height="249" key="GridCell.Tab.0.bottom" timestamp="1579725421619">
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579725463684" />
+    <state width="1478" height="249" key="GridCell.Tab.0.bottom" timestamp="1579726514831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="249" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579725421619" />
-    <state width="1478" height="249" key="GridCell.Tab.0.center" timestamp="1579725421619">
+    <state width="1478" height="249" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579726514831" />
+    <state width="1478" height="249" key="GridCell.Tab.0.center" timestamp="1579726514830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="249" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579725421619" />
-    <state width="1478" height="249" key="GridCell.Tab.0.left" timestamp="1579725421618">
+    <state width="1478" height="249" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579726514830" />
+    <state width="1478" height="249" key="GridCell.Tab.0.left" timestamp="1579726514830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="249" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579725421618" />
-    <state width="1478" height="249" key="GridCell.Tab.0.right" timestamp="1579725421619">
+    <state width="1478" height="249" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579726514830" />
+    <state width="1478" height="249" key="GridCell.Tab.0.right" timestamp="1579726514831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="249" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579725421619" />
+    <state width="1478" height="249" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579726514831" />
     <state width="1478" height="258" key="GridCell.Tab.1.bottom" timestamp="1579724100540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -618,10 +626,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="481" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1579716564993" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1579720951153">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1579725476035">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579720951153" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579725476035" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579702680409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -638,10 +646,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1579720174088" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1579719317634">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1579726326379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1579719317634" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1579726326379" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1579545456102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
