@@ -12,7 +12,7 @@ public class MultiLevelGame extends Game {
 
 
     private final Player player;
-    private List<Level> levels = new LinkedList<>();
+    private List<Level> levels;
     private int levelnumber =0 ;
 
     public MultiLevelGame(Player player, PointCalculator pointCalculator) {
@@ -28,21 +28,29 @@ public class MultiLevelGame extends Game {
     }
 
 
+
     @Override
     public Level getLevel() {
         return levels.get(levelnumber);
 
     }
     @Override
-    public void levelWon(){this.levelnumber++;
-
+    public void levelWon(){
+        this.levelnumber++;
     }
 
 
     @Override
     public List<Player> getPlayers() {
         return ImmutableList.of(player);
+    }
 
+    public int getLevelnumber(){
+        return levelnumber;
+    }
+
+    public int levelsleft(){
+        return levels.size() -1;
     }
 }
 

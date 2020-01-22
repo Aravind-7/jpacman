@@ -8,10 +8,12 @@ import nl.tudelft.jpacman.points.DefaultPointCalculator;
 public class MultiLevelLauncher extends Launcher {
 
     private MultiLevelGame multiGame;
+    private String levelMap = DEFAULT_MAP;
 
 
     /**
      * This method is to create a new launcher for multilevel game.
+     *
      * @return it returns a multiGame.
      */
     @Override
@@ -29,7 +31,7 @@ public class MultiLevelLauncher extends Launcher {
     }
 
     private void addLevel(Level newLevel) {
-       multiGame.addLevel(newLevel);
+        multiGame.addLevel(newLevel);
     }
 
     @Override
@@ -37,4 +39,9 @@ public class MultiLevelLauncher extends Launcher {
         return multiGame;
     }
 
+    public Launcher withMapFile(String fileName) {
+        levelMap = fileName;
+        return this;
+
+    }
 }
