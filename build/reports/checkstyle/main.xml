@@ -1,94 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.17">
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\Launcher.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\Launcher.java">
+<error line="73" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\PacmanConfigurationException.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\MultiLevelLauncher.java">
+<error line="8" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="32" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 7, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\board\Board.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\PacmanConfigurationException.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\board\BoardFactory.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\board\Board.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\board\Direction.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\board\BoardFactory.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\board\Square.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\board\Direction.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\board\Unit.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\board\Square.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\game\Game.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\board\Unit.java">
+</file>
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\game\Game.java">
 <error line="102" severity="warning" message="&apos;if&apos; child has incorrect indentation level 11, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\game\GameFactory.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\game\GameFactory.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\game\SinglePlayerGame.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\game\MultiLevelGame.java">
+<error line="11" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="16" column="29" severity="warning" message="&apos;=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="16" column="32" severity="warning" message="&apos;;&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"/>
+<error line="18" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="26" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="37" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="37" column="27" severity="warning" message="&apos;{&apos; at column 27 should have line break after." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="37" column="27" severity="warning" message="&apos;{&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="37" column="27" severity="warning" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\level\CollisionInteractionMap.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\game\SinglePlayerGame.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\level\CollisionMap.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\level\CollisionInteractionMap.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\level\DefaultPlayerInteractionMap.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\level\CollisionMap.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\level\Level.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\level\DefaultPlayerInteractionMap.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\level\LevelFactory.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\level\Level.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\level\MapParser.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\level\LevelFactory.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\level\Pellet.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\level\MapParser.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\level\Player.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\level\Pellet.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\level\PlayerCollisions.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\level\Player.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\level\PlayerFactory.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\level\PlayerCollisions.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\npc\Ghost.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\level\PlayerFactory.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\Blinky.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\npc\Ghost.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\Clyde.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\Blinky.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\GhostColor.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\Clyde.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\GhostFactory.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\GhostColor.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\Inky.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\GhostFactory.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\Navigation.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\Inky.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\Pinky.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\Navigation.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\package-info.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\Pinky.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\points\DefaultPointCalculator.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\npc\ghost\package-info.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\points\PointCalculator.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\points\DefaultPointCalculator.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\points\PointCalculatorLoader.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\points\PointCalculator.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\sprite\AnimatedSprite.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\points\PointCalculatorLoader.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\sprite\EmptySprite.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\sprite\AnimatedSprite.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\sprite\ImageSprite.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\sprite\EmptySprite.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\sprite\PacManSprites.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\sprite\ImageSprite.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\sprite\Sprite.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\sprite\PacManSprites.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\sprite\SpriteStore.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\sprite\Sprite.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\ui\Action.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\sprite\SpriteStore.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\ui\BoardPanel.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\ui\Action.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\ui\ButtonPanel.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\ui\BoardPanel.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\ui\PacKeyListener.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\ui\ButtonPanel.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\ui\PacManUI.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\ui\PacKeyListener.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\ui\PacManUiBuilder.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\ui\PacManUI.java">
 </file>
-<file name="C:\Users\aravi\Desktop\SWT\jpacman\src\main\java\nl\tudelft\jpacman\ui\ScorePanel.java">
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\ui\PacManUiBuilder.java">
+</file>
+<file name="C:\Users\vedamsh\Desktop\WiSe\SWT\framework\jpacman\src\main\java\nl\tudelft\jpacman\ui\ScorePanel.java">
 </file>
 </checkstyle>
