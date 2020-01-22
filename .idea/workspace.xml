@@ -1,166 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3b8a8eb-f1bd-4552-a71d-4af3691c60bc" name="Default Changelist" comment="Restructure tests- Exercise-25">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.3/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.3/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.3/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpacman.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/defaultTest/nl/tudelft/jpacman/LauncherSmokeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/defaultTest/nl/tudelft/jpacman/board/BoardFactoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/defaultTest/nl/tudelft/jpacman/board/BoardTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/defaultTest/nl/tudelft/jpacman/board/SquareTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/defaultTest/nl/tudelft/jpacman/fuzzer/JPacmanFuzzer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/defaultTest/nl/tudelft/jpacman/integration/StartupSystemTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/defaultTest/nl/tudelft/jpacman/level/LevelTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/defaultTest/nl/tudelft/jpacman/npc/ghost/NavigationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/defaultTest/nl/tudelft/jpacman/sprite/SpriteTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/Launcher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/PacmanConfigurationException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/board/Board.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/board/BoardFactory$Ground.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/board/BoardFactory$Wall.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/board/BoardFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/board/Direction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/board/Square.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/board/Unit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/game/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/game/GameFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/game/SinglePlayerGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/CollisionInteractionMap$CollisionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/CollisionInteractionMap$InverseCollisionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/CollisionInteractionMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/CollisionMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/DefaultPlayerInteractionMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/Level$LevelObserver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/Level$NpcMoveTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/Level.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/LevelFactory$RandomGhost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/LevelFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/MapParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/Pellet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/Player.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/PlayerCollisions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/level/PlayerFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/npc/Ghost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/npc/ghost/Blinky.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/npc/ghost/Clyde.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/npc/ghost/GhostColor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/npc/ghost/GhostFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/npc/ghost/Inky.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/npc/ghost/Navigation$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/npc/ghost/Navigation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/npc/ghost/Pinky.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/points/DefaultPointCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/points/PointCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/points/PointCalculatorLoader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/sprite/AnimatedSprite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/sprite/EmptySprite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/sprite/ImageSprite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/sprite/PacManSprites.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/sprite/Sprite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/sprite/SpriteStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/ui/Action.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/ui/BoardPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/ui/ButtonPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/ui/PacKeyListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/ui/PacManUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/ui/PacManUiBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/ui/ScorePanel$ScoreFormatter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/nl/tudelft/jpacman/ui/ScorePanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/board/BasicSquare.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/board/BasicUnit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/board/BoardAssertTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/board/DirectionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/board/OccupantTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/game/GameUnitTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/integration/suspension/RestartGameTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/integration/suspension/SuspendTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/level/CollisionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/level/DefaultPlayerInteractionMapTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/level/MapParserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/level/PlayerCollisionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/npc/ghost/Clydetest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/npc/ghost/GhostMapParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/npc/ghost/InkyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/checkstyle/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/checkstyle/main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/defaultTest/sprite/64x64white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/board.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/scorecalc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/apple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/bell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/cherry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/dead.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/floor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/galboss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/ghost_cyan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/ghost_eyes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/ghost_orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/ghost_pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/ghost_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/ghost_vul_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/ghost_vul_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/melon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/mspacman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/pacman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/pellet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/strawberry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/sprite/wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/simplemap.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/defaultTest/resources/sprite/64x64white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/board.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/scorecalc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/apple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/bell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/cherry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/dead.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/floor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/galboss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/ghost_cyan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/ghost_eyes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/ghost_orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/ghost_pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/ghost_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/ghost_vul_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/ghost_vul_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/melon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/mspacman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/pacman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/pellet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/strawberry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/sprite/wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/resources/simplemap.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nl/tudelft/jpacman/game/GameStateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/StateMap.txt" afterDir="false" />
+    <list default="true" id="d3b8a8eb-f1bd-4552-a71d-4af3691c60bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nl/tudelft/jpacman/game/GameStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nl/tudelft/jpacman/game/GameStateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +129,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--debug" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -399,8 +248,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GameStateTest" />
         <item itemvalue="Gradle.jpacman [staticAnalysis]" />
+        <item itemvalue="JUnit.GameStateTest" />
         <item itemvalue="JUnit.GameStateTest.gameWin" />
         <item itemvalue="JUnit.GameStateTest.beforeStart" />
         <item itemvalue="JUnit.SuspendTest" />
@@ -459,6 +308,8 @@
       <workItem from="1579515088637" duration="674000" />
       <workItem from="1579526700764" duration="4619000" />
       <workItem from="1579602066977" duration="10883000" />
+      <workItem from="1579681514814" duration="542000" />
+      <workItem from="1579702536598" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="Enabling coverage and commenting move method">
       <created>1573551672151</created>
@@ -614,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576864482144</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="StateMachineTests-Exercise_41">
+      <created>1579681792290</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1579681792290</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +509,8 @@
     <MESSAGE value="PlayerCollisionTestClass- Exercise-24&#10;added pellet meets Player....After Static analysis" />
     <MESSAGE value="PlayerCollisionTestClass- Exercise-24&#10;added ghost meets ghost, pellet meets pellet, ghst meets pellet." />
     <MESSAGE value="Restructure tests- Exercise-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructure tests- Exercise-25" />
+    <MESSAGE value="StateMachineTests-Exercise_41" />
+    <option name="LAST_COMMIT_MESSAGE" value="StateMachineTests-Exercise_41" />
   </component>
   <component name="WindowStateProjectService">
     <state x="365" y="68" key="#LauncherSmokeTest" timestamp="1576693025552">
@@ -682,26 +541,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="365" y="44" key="#nl.tudelft.jpacman_in_jpacman.test/0.0.1536.824@0.0.1536.824" timestamp="1576693142250" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1579634953082">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1579681790106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579634953082" />
-    <state width="1493" height="152" key="GridCell.Tab.0.bottom" timestamp="1579645993022">
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579681790106" />
+    <state width="1493" height="300" key="GridCell.Tab.0.bottom" timestamp="1579702948006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579645993022" />
-    <state width="1493" height="152" key="GridCell.Tab.0.center" timestamp="1579645993022">
+    <state width="1493" height="300" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579702948006" />
+    <state width="1493" height="300" key="GridCell.Tab.0.center" timestamp="1579702948005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579645993022" />
-    <state width="1493" height="152" key="GridCell.Tab.0.left" timestamp="1579645993021">
+    <state width="1493" height="300" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579702948005" />
+    <state width="1493" height="300" key="GridCell.Tab.0.left" timestamp="1579702948005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579645993021" />
-    <state width="1493" height="152" key="GridCell.Tab.0.right" timestamp="1579645993022">
+    <state width="1493" height="300" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579702948005" />
+    <state width="1493" height="300" key="GridCell.Tab.0.right" timestamp="1579702948006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579645993022" />
+    <state width="1493" height="300" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579702948006" />
     <state x="147" y="71" key="MergeDialog" timestamp="1576864364843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -710,26 +569,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="481" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1576864364852" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1576864492183">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1579681796674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576864492183" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579681514477">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579681796674" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579702680409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579681514477" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579702680409" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579634962308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1579634962308" />
-    <state x="446" y="205" key="git4idea.merge.GitPullDialog" timestamp="1579634980172">
+    <state x="446" y="205" key="git4idea.merge.GitPullDialog" timestamp="1579681893584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="446" y="205" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1579634980172" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1579681530114">
+    <state x="446" y="205" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1579681893584" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1579702947941">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1579681530114" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1579702947941" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1579545456102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

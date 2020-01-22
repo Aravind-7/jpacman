@@ -194,6 +194,9 @@ public class GameStateTest {
         getGame().move(getPlayer(),Direction.EAST);
         getGame().move(getPlayer(),Direction.WEST);
         getGame().stop();
+        assertThat(getGame().isInProgress()).isFalse();
+        verifyZeroInteractions(observer);
+
     }
 
 }
