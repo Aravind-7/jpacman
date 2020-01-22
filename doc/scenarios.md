@@ -144,6 +144,24 @@ Given the game is suspended;
 When  the player hits the "Start" button;
 Then  the game is resumed.
 ```
+#### Story 5: Move to the Next Level
+
+```
+As a Player,
+ I want to experince the extended gameplay;
+So that I can play more levels.
+
+Scenario S5.1:The Player Wins the Game.
+Given that the game is in progress;
+When the player consumes all the pallets.
+Then the game should not end.
+
+Scenario S5.2: Move to the next level.
+Given that the player won the game.
+When the player hit next.
+Then the level should increase.
+```
+
 
 ## 3. User Interface
 
